@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Renesas RZ/V AI | The best solution for starting your AI applications." name="title">
+    <meta name="keywords" content="rzv,ai application,ai app,edge ai,vision ai, aritificial intelligence">
+    <meta name="description" content="Renesas Electronics provides AI Applications for Pre-trained AI model on RZ/V and AI SDK for application development.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRL1VWTZC1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JRL1VWTZC1');
+    </script>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Renesas AI Hub | Voice</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Renesas RZ/V AI" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The best solution for starting your AI applications." />
+<meta property="og:description" content="The best solution for starting your AI applications." />
+<link rel="canonical" href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/applications.html" />
+<meta property="og:url" content="https://renesas-rz.github.io/rzv_ai_sdk/6.00/applications.html" />
+<meta property="og:site_name" content="Renesas RZ/V AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Renesas RZ/V AI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2025-06-30T19:37:38+09:00","description":"The best solution for starting your AI applications.","headline":"Renesas RZ/V AI","url":"https://renesas-rz.github.io/rzv_ai_sdk/6.00/applications.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="assets/css/style.css?v=2f5ae379a99650832e21ebcdb2f059ba2351c00d">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/rzv_ai_sdk/6.00/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- <h1><a href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/">Renesas RZ/V AI</a></h1> -->
+
+        <h1 class="web-title"><a href="index.html">Renesas AI Hub <br class="br-sp-web-title"></a></h1>
+        <p class="version"><a class="version" href="">1.00</a></p>
+        
+
+        <!-- <p>The best solution for starting your AI applications.</p> -->
+        <p class="ham-small">The best solution for <br class="br-sp">starting your AI applications.</p>
+        <p class="ham-very-small small">Provided by Renesas Electronics Corporation</p>
+        <!-- <br> -->
+
+        
+
+        
+        <div class="container">
+          <div class="row ham-nodisplay">
+            <div class="col-12">
+                <img src="img/board.svg" alt="board" style="width:48%; max-width: 90px;"/>
+                <img src="img/ai_sdk.svg" alt="ai-sdk" style="width:48%; max-width: 90px;"/>  
+            </div>
+          </div>
+          
+        </div>
+        <br class="br-nsp">
+        <!-- 
+        <div class="container">
+          <div class="row ham-nodisplay">
+            <p class="mb-1">
+              <a class="btn btn-secondary square-button-gray square-button-link-small" style="width:210px;" href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/about-applications.html">
+                  AI Applications Overview
+              </a>
+            </p>
+            <p class="mb-0">
+              <a class="btn btn-secondary square-button-gray square-button-link-small" style="width:210px;" href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/ai-sdk.html">
+                  AI SDK Overview
+              </a>
+            </p>
+          </div>
+        </div>
+      <br class="br-nsp">-->
+        <!-- <div class="container">
+          <div class="row">
+            <div class="downloads col-6 col-md-12 col-xl-6" style="text-align: center">
+              <img src="img/board.png" alt="board" height="90px" />
+              <ul class="downloads">
+                <li><a href="https://www.renesas.com/products/microcontrollers-microprocessors/rz-mpus/rzv2l-evkit-rzv2l-evaluation-board-kit">Get<br>the Board</a></li>
+              </ul>
+            </div>
+            <div class="downloads col-6 col-md-12 col-xl-6" style="text-align: center">
+              <img src="img/ai_sdk.svg" alt="ai_sdk" height="90px" />
+              <ul class="downloads">
+                <li><a href="https://www.renesas.com/software-tool/rzv2l-ai-software-development-kit">Get<br>AI SDK</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+        
+        
+
+        <p class="mb-0 view">
+          <h5 class="ham-nodisplay mt-3" style="margin-bottom: 5px;">
+            To keep you updated, <br class="br-nsp"><b>Watch</b> our <a href="https://github.com/renesas-rz/rzv_ai_sdk">GitHub repository</a><br> 
+          </h5>
+          <span class="ham-nodisplay">
+            <a class="github-button" href="https://github.com/renesas-rz/rzv_ai_sdk/subscription" data-size="large" aria-label="Watch renesas-rz/rzv_ai_sdk on GitHub">Watch</a>
+          </span>
+        </p>
+    -->
+
+        <div class="web_index">
+          <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+           <div class="menu-content">
+            <p class="ham-display">
+              <span class="ham-string">
+                <a class="github-button" href="https://github.com/renesas-rz/rzv_ai_sdk/subscription" data-size="large" aria-label="Watch renesas-rz/rzv_ai_sdk on GitHub">Watch</a><br> 
+                <a href="https://github.com/renesas-rz/rzv_ai_sdk">GitHub repository</a>
+              </span>
+            </p>
+            <div class="u_line">
+              Real Time Analytics
+            </div>
+            
+              <summary>
+                <a href="rta.html">RTA Overview</a>
+              </summary>       
+                 
+           
+            <details close>
+              <summary>
+               <a href="rta.html">RTA Reference</a>
+              </summary>
+              <ul class="index">
+                <li><a href="https://www.renesas.com/en/software-tool/automotive-sound-recognition-sws?queryID=8117f811a411bd2f64d43820f79cb8cb" target="_blank">SWS</a></li>
+              <li><a href="https://www.renesas.com/en/document/scd/aik-ra6m3-asset-movement-recognition-project?r=25443361" target="_blank">Asset Movement Recognition (AMR)</a></li>
+              <li><a href="https://www.renesas.com/en/blogs/is-your-vacuum-smart-enough-to-clean-for-real" target="_blank">Roller Floor Type Recognition</a></li>
+              <li><a href="https://www.renesas.com/en/blogs/future-digital-motor-control-multiple-motors-embedded-ai-and-advanced-algorithms-one-mcu" target="_blank">Unbalanced Load & Shaft Misalignment</a></li>
+              <li><a href="https://www.renesas.com/en/document/fly/reality-ai-load-detection?r=1626801" target="_blank">Load Detection</a></li>
+              <li><a href="https://www.renesas.com/en/video/ra8t1-dual-motor-anomaly-detection?queryID=61c0a67617f8aa31b82a157e55ab0065" target="_blank">Dual Motor Anomaly Detection - RA8T1</a></li>
+              <li><a href="https://www.renesas.com/en/design-resources/boards-kits/ek-ra8p1?srsltid=AfmBOopjcxVOZ44yl5aGm3c4eRtxxfESWcpfxS-ufjE5ikG-PErnarvQ#documents" target="_blank">Glass Break Detection - RA8P1</a></li>
+              <li><a href="https://www.renesas.com/en/design-resources/boards-kits/ek-ra8p1?srsltid=AfmBOopjcxVOZ44yl5aGm3c4eRtxxfESWcpfxS-ufjE5ikG-PErnarvQ#documents" target="_blank">Baby Cry Detection - RA8P1</a></li>
+              <li><a href="https://www.renesas.com/en/blogs/automate-your-bldc-motor-startup-anomaly-detection-ai" target="_blank">Startup Anomaly Detection - RA6T2</a></li>
+               
+               
+              </ul>
+            </details>
+            <br class="br-nsp">
+            
+            <div class="u_line">
+              Voice
+            </div>
+            <summary>
+                <a href="voice.html">Voice Overview</a>
+              </summary>       
+                 
+            
+            <details close>
+              <summary>
+                <a href="voice.html">Voice Applications</a>
+              </summary>
+              <ul class="index">
+                <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Commands%20Recognition%20-%20VCR" target="_blank">Voice Command Recognition (VCR)</a></li>
+              <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Anti%20Spoofing%20-%20VAS" target="_blank">Voice Anti-Spoofing (VAS)</a></li>
+              <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20VAS%20SID%20VCR" target="_blank">Voice Combo - VAS SID VCR - RA6E1</a></li>
+              <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Audio%20Preprocessing%20Front%20-%20APF" target="_blank">Voice Audio Preprocessing Front</a></li>
+              <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Natural%20Language%20Understanding%20-%20NLU" target="_blank">Natural Language Understanding - RA8M1</a></li>
+            <li><a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20APF%20NLU%20VAS%20CNSV" target="_blank">Voice Combo APF NLU VAS CNSV - RA8M1</a></li>
+               
+              </ul>
+            </details>
+            <br class="br-nsp">
+            
+
+            <div class="u_line">
+              Vision
+            </div>
+            <summary>
+                <a href="vision.html">Vision Overview</a>
+              </summary>       
+                 
+            <details close>
+              <summary>
+                <a href="vision.html">Vision Applications</a>
+              </summary>
+              <ul class="index">
+                <li><a href="https://www.renesas.com/en/document/swe/face-detection-application-example?r=25570451" target="_blank">Face Detection - RA8D1</a></li>
+                <li><a href="https://www.renesas.com/en/software-tool/renesas-ai-model-deployer-vision-ai?srsltid=AfmBOor4GebghjUghj3ZZNssxNBr5GzZOCqEQBBR7YJEoyO9nqCIPsyK#documents" target="_blank">Object Detection with DetectNet v2 - RZ/V2H & RZ/V2L (RAIMD)</a></li>
+              <li><a href="https://www.renesas.com/en/software-tool/renesas-ai-model-deployer-vision-ai?srsltid=AfmBOor4GebghjUghj3ZZNssxNBr5GzZOCqEQBBR7YJEoyO9nqCIPsyK#documents" target="_blank">Image Classification with MobileNetV2 - RA8D1 (RAIMD)</a></li>
+              <li><a href="https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/face_detection" target="_blank">Face Detection - RA8P1 (RUHMI)</a></li>
+              <li><a href="https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/image_classification" target="_blank">Image Classification - RA8P1 (RUHMI)</a></li>
+               <li><a href="https://www.renesas.com/en/blogs/aizip-renesas-first-production-quality-facial-recognition-edge-devices-and-iot" target="_blank">AIZIP Face ID - AIK-RA8D1</a></li>
+              </ul>
+            </details>
+            <br class="br-nsp">
+
+           
+             
+
+            <div class="u_line">
+              MultiModel Combos
+            </div>
+            
+              <summary>
+                <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/aizip-pas?srsltid=AfmBOooPcKMcqCVwv_NWcfM3p2-m9DkJDJGr9fhsoZ22v1LtEKdXYnOB" target="_blank">AIZIP PAS - RA8D1, RA6E1</a>
+              </summary> 
+              
+                   
+              <summary>
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20APF%20VCR" target="_blank">APF and VCR</a>
+              </summary>
+              
+             
+              <summary>
+                <a href="https://www.renesas.com/en/blogs/solution-suite-concept-e-delivery-robot" target="_blank">Solution Suite Concept - Delivery Robot</a>
+              </summary>
+             
+              <summary>
+                <a href="https://www.renesas.com/en/blogs/solution-suite-concept-software-based-washing-machine?srsltid=AfmBOopTR0NgWcyhmG9tnNgN7s4Wu7GG_VLAc2D00ASU-_NG7GCu3HYc" target="_blank">Solution Suite Concept - Washing Machine</a>
+              </summary>
+              <summary>
+                <a href="https://www.renesas.com/en/blogs/solution-suite-concept-software-based-refrigerator" target="_blank">Solution Suite Concept - Refrigerator</a>
+              </summary>
+
+            </details>
+            <br class="br-nsp">
+
+
+
+          </div>
+        </div>
+        <br class="ham-nodisplay">
+        <br class="ham-nodisplay">
+       <!-- <div style="line-height: 1.15em;">
+          
+          <p class="mb-0 ham-very-small"><small>This project is maintained by <a href="https://github.com/renesas-rz">renesas-rz</a></small></p>
+          
+          <p class="mb-1 ham-very-small"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </div>-->
+      </header>
+      <section>
+
+        <div class="application-window">
+<div class="container" style="max-width:100%;">
+    <div class="row">
+        <div id="page-top" class="top col-12">
+            Voice<br />
+           Overview
+        </div>
+    </div>
+</div>
+<br />
+
+<h5 align="left">
+    In today's rapidly evolving digital era, Voice User Interfaces (VUI) are reshaping user interactions with technology. We offer advanced VUI solutions that harness cutting-edge semiconductor technology to deliver seamless, intuitive, and highly responsive voice experiences, elevating the standard for user engagement and satisfaction. <br /><br />
+    Access comprehensive development support including tools, software development kits, and expert technical assistance to streamline the integration and optimization of VUI technology, empowering you to overcome challenges and accelerate your product development cycle.<br /><br /><br />
+   <!--
+<a class="btn btn-secondary square-button ms-3 mt-1" style="text-align:left;" href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/about-applications.html" role="button">
+    <span class="banner-title">About AI Applications</span><br />
+    <span class="banner-line">
+    What is AI Applications?<br />
+    How is directory/file structured?<br />
+    How can I download the previous version?<br /></span>
+</a> -->
+<br />
+
+<div id="agriculture" class="category_section container pb-4" data-category="Agriculture">
+<h3 align="left"><i>Applications</i></h3>
+<div class="container">
+    <div class="row">
+            <div id="agriculture1" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Animal" data-label="" data-feature="Video" data-device="RZ/V2L,RZ/V2H,RZ/V2N," href="">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Commands%20Recognition%20-%20VCR" target="_blank">
+                  <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_1.png" alt="application" width="100%"   />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Command Recognition (VCR)</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                        Voice User Interface Solution based on high-performance RA Family of 32-bit MCUs<br /><br />
+                    </div>
+                  </a>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/voice-user-interface-solution?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            
+
+                           <!-- <div>
+                                <ul>
+                                    <a href="">Hardware RA8M1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA6E1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA4E1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA2L1</a>
+                                </ul>
+                            </div>
+                        -->
+                           
+                        </dd>
+                        <dd>
+                            <dd style="display: flex">
+                            
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia6e1pocz#videos_training" target="_blank" style="color:white">RA6E1&gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia4e1pocz?srsltid=AfmBOoqvYQYKCP6_lqcaacBbxjke9R7kPOUisFNy9iUx8SjV50ussvJ-" target="_blank" style="color:white">RA4E1 &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia2l1pocz#documents" target="_blank" style="color:white">RA2L1 &gt;</a>
+                                
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+
+            <!--<div id="agriculture2" class="application_card col-lg-6 col-xl-4" data-model="Custom" data-targetobj="Other" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_2.png" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Command Recognition (VCR) - RA4E1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                        Voice User Interface Solution based on high-performance RA Family of 32-bit MCUs<br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/voice-user-interface-solution?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" target="_blank"  href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia4e1pocz?srsltid=AfmBOoqvYQYKCP6_lqcaacBbxjke9R7kPOUisFNy9iUx8SjV50ussvJ-" style="color:white">Hardware &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_3.png" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Command Recognition (VCR) - RA2L1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                        Voice User Interface Solution based on high-performance RA Family of 32-bit MCUs<br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/voice-user-interface-solution?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia2l1pocz#documents" target="_blank" style="color:white">Hardware &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                    
+                </li>
+            </div>
+        -->
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Anti%20Spoofing%20-%20VAS" target="_blank">
+
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_4.png" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Anti-Spoofing (VAS)</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                </a>
+                    <div class="griditem-add">
+                        Voice User Interface Kits (VUI) generated with <a href="https://www.renesas.com/en/software-tool/reality-ai-tools"> Reality AI Tools </a> combined with the voice command recognition of <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/cyberon-dspotter">Cyberon DSpotter</a><br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/reality-ai-voice-anti-spoofing-model?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/can-your-doorbell-be-spoofed" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                             <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+
+                           <!-- <div>
+                                <ul>
+                                    <a href="">Hardware RA8M1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA6E1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA4E1</a>
+                                </ul>
+                                <ul>
+                                    <a href="">Hardware RA2L1</a>
+                                </ul>
+                            </div>
+                        -->
+                           
+                        </dd>
+                        <dd>
+                            <dd style="display: flex">
+                            
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia6e1pocz#videos_training" target="_blank" style="color:white">RA6E1&gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia4e1pocz?srsltid=AfmBOoqvYQYKCP6_lqcaacBbxjke9R7kPOUisFNy9iUx8SjV50ussvJ-" target="_blank" style="color:white">RA4E1 &gt;</a>
+                                
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+
+            <!--
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_5.png" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Anti-Spoofing (VAS) - RA8M1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                       Voice User Interface Kits (VUI) generated with <a href="https://www.renesas.com/en/software-tool/reality-ai-tools"> Reality AI Tools </a> combined with the voice command recognition of <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/cyberon-dspotter">Cyberon DSpotter<br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/voice-user-interface-solution?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia6e1pocz#videos_training" target="_blank" style="color:white">Hardware &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+
+        -->
+
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20VAS%20SID%20VCR" target="_blank">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voice_6.png" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Combo - VAS SID VCR - RA6E1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                       Combined solution integrating Voice Anti-spoofing (VAS) and Speaker ID (SID) with Voice Command Recognition (VCR).<br /><br />
+                    </div>
+                </a>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/vui-and-speaker-id-enhance-user-experience?r=1615001" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia6e1pocz#videos_training" target="_blank" style="color:white">Hardware &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Audio%20Preprocessing%20Front%20-%20APF" target="_blank">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/apf.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Audio Preprocessing Front</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                        Enhanced end user experience with combination solution of Audio Pre-processing Front-end (APF) and Voice Command Recognition (VCR).<br /><br />
+                    </div>
+                </a>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/audio-pre-processing-front-end-and-vcr-combination?r=25556826" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/what-audio-processing-front-end-and-why-it-important" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/key-technologies/artificial-intelligence/ai-voice#documents" target="_blank" style="color:white">Example &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                        </br>
+                        <dd>
+                            <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/tw001-vuia6e1pocz#videos_training" target="_blank" style="color:white">RA6E1 &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/vk-ra8m1" target="_blank" style="color:white">RA8M1&gt;</a>
+                                
+                            </div>
+                            
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Natural%20Language%20Understanding%20-%20NLU" target="_blank">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/nlu.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Natural Language Understanding - RA8M1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                </a>
+                    <div class="griditem-add">
+                        <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/cyberon-dspotternlu?queryID=53ce50436d03120a87ba8be12e348717">DSpotterNLU </a>runs on <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus"> Renesas RA8 MCUs </a> by combining the technologies of speech recognition and natural language processing.<br /><br />
+                    </div>
+               
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/prb/cyberon-dspotternlu?r=25557136" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/bro/voice-and-vision-development?r=25445636" target="_blank" style="color:white">Brochure &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/cyberon-dspotternlu?srsltid=AfmBOooWhNm2C3JjqQzCzNihExyAKdWCbPQYzbi99a4RY7LhZTANsC8a#videos_training" target="_blank" style="color:white">Video &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20APF%20NLU%20VAS%20CNSV" target="_blank">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/voicecombo.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Voice Combo APF NLU VAS CNSV - RA8M1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                </a>
+                    <div class="griditem-add">
+                        Renesas’ AI Voice Combo Solution powered by the <a href="https://www.renesas.com/en/design-resources/boards-kits/vk-ra8m1?queryID=f6c1612bda80bf61d18d8cfa4413c44d&part-status=Active">VK-RA8M1 </a> kit.<br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/video/ra8m1-voice-combo-solution" target="_blank" style="color:white">Video &gt;</a>
+                                
+                            </div>
+                            
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/design-resources/boards-kits/vk-ra8m1?srsltid=AfmBOorN-CVKfzCQjBC6FqwB2jFflJHHznO6oTAkLrh6mLRRjKYzG_zy" target="_blank" style="color:white">Hardware &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+            <div id="agriculture3" class="application_card col-lg-6 col-xl-4" data-model="Tiny YOLOv3/YOLOv3" data-targetobj="Animal" data-label="" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/aizip.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">AIZIP Speaker ID - RA6E1</dt>
+                    <h6 class="appstatus" align="right"><b><br /></b></h6>
+                    <div class="griditem-add">
+                        Aizip's Speaker Identification algorithm provides accurate identification of registered speakers for biometric parameter recognition.<br /><br />
+                    </div>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/aizip-speaker-id?srsltid=AfmBOordJXFc84jVZfJEj7m3GZTGt-7970x175oNyYyGsJKcxvZVzGgG" target="_blank" style="color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/build-advanced-voice-user-interfaces-enhanced-recognition-anti-spoofing-and-speaker-identification" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/aizip-speaker-id?srsltid=AfmBOordJXFc84jVZfJEj7m3GZTGt-7970x175oNyYyGsJKcxvZVzGgG#videos_training" target="_blank" style="color:white">Video &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+            
+
+
+        </div>
+        <br />
+        <br />
+    </div>
+</div>
+
+
+
+<div id="building" class="category_section container pb-4" data-category="Smart Building">
+<h3 align="left"><i>MultiModel Combos</i></h3>
+<div class="container">
+    <div class="row">
+            <div id="building1" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Head" data-label="Updated!" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/SmartBuilding1_960x540.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">AIZIP PAS - RA8D1, RA6E1</dt>
+                
+                    <div class="griditem-add">
+                        Aizip’s Person Access System (PAS) provides accurate person identification through face recognition and speaker identification.<br /><br />
+                    </div>
+                    
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/aizip-pas?srsltid=AfmBOooPcKMcqCVwv_NWcfM3p2-m9DkJDJGr9fhsoZ22v1LtEKdXYnOB" target="_blank" style="color:white">Flyer &gt;</a>
+                               
+                            </div>
+                             <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra-partners/aizip-pas?srsltid=AfmBOooPcKMcqCVwv_NWcfM3p2-m9DkJDJGr9fhsoZ22v1LtEKdXYnOB#videos_training" target="_blank" style="color:white">Video &gt;</a>
+                               
+                            </div>
+                            
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+            <div id="building2" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Head" data-label="Updated!" data-feature="Video" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                 <a href="https://github.com/renesas/aiot-ready/tree/master/application_examples/Voice%20Combo%20-%20APF%20VCR" target="_blank">
+                <li class="griditem" style="list-style: none;">
+                     
+                    <img src="img/combi.png" alt="application" width="100%"  />
+                    <dt class="mt-1" style="color: #2a289d;">APF and VCR</dt>
+                    <div class="griditem-add">
+                        Combination solution enhances end user experience by adding Audio Pre-processing Front-end (APF) application examples to the Voice Command Recognition (VCR) solution.<br /><br />
+                    </div>
+                     </a>
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/document/fly/audio-pre-processing-front-end-and-vcr-combination?r=1626801" target="_blank" color:white">Flyer &gt;</a>
+                                
+                            </div>
+                            
+                            
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+            <div id="building3" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Head" data-label="Updated!" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/deliveryrobot.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Solution Suite Concept - Delivery Robot</dt>
+                    
+                    <div class="griditem-add">
+                        E-delivery robots with AI-driven autonomy, predictive maintenance, and advanced sensor fusion for safer, smarter, and more efficient urban deliveries.<br /><br />
+                    </div>
+                    
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/solution-suite-concept-e-delivery-robot" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/video/multimodal-smart-delivery-robot" target="_blank" style="color:white">Video &gt;</a>
+                                
+                            </div>
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+            
+            <div id="building3" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Head" data-label="Updated!" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/washingmachine.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Solution Suite Concept - Washing Machine</dt>
+                    
+                    <div class="griditem-add">
+                        Renesas has introduced a software-based smart washing machine concept to enhance performance in sser interaction and motor reliability.<br /><br /> 
+                    </div>
+                    
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/solution-suite-concept-software-based-washing-machine?srsltid=AfmBOopTR0NgWcyhmG9tnNgN7s4Wu7GG_VLAc2D00ASU-_NG7GCu3HYc" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                            
+                           
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+            
+            <div id="building3" class="application_card col-lg-6 col-xl-4" data-model="YOLOv3" data-targetobj="Head" data-label="Updated!" data-feature="" data-device="RZ/V2L,RZ/V2H,RZ/V2N,">
+                <li class="griditem" style="list-style: none;">
+                    <img src="img/refrig.jpg" alt="application" />
+                    <dt class="mt-1" style="color: #2a289d;">Solution Suite Concept - Refrigerator</dt>
+                    
+                    <div class="griditem-add">
+                        E-delivery robots with AI-driven autonomy, predictive maintenance, and advanced sensor fusion for safer, smarter, and more efficient urban deliveries.<br /><br />
+                    </div>
+                    
+                    <dl>
+                        <dd style="display: flex">
+                            <div class="devicelinkbutton_parent">
+                                <a class="devicelinkbutton" href="https://www.renesas.com/en/blogs/solution-suite-concept-software-based-refrigerator" target="_blank" style="color:white">Blog &gt;</a>
+                                
+                            </div>
+                          
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+            
+        </div>
+        <br />
+        <br />
+    </div>
+</div>
+<!--
+
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="color: #b1b1b1; font-size: 12px;">
+            <i>
+                For license information, please see <a href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/about-applications.html">About AI Applications.</a>
+            </i>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12" align="right">
+            <a class="btn btn-secondary square-button" href="https://renesas-rz.github.io/rzv_ai_sdk/6.00/applications.html#page-top" role="button">
+Back to Top &gt;
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>
+<p>
+    <br />
+    <br />
+</p>
+-->
+<!--
+<div class="container">
+    <div id="application-filter" class="bg-light">
+        <div id="filter-title">
+            <h1 id="filter-titlecolor">Filter</h1>
+            <button id="application-filter-erase-button" class="btn erase" aria-label="Erase" style="">
+                <svg xmlns="http://www.w3.org/2000/svg" font-size="30" fill="currentColor" class="bi bi-eraser">
+                    <b>Clear all</b>
+                </svg>
+            </button>
+        </div>
+        <div id="application-filter-body">
+            <div id="category-filter">
+                <h3 id="category-filter-titlecolor">Category</h3>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="Agriculture" class="filter_content" value="Agriculture" />
+                    <label for="Agriculture">Application Examples</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="Smart Building" class="filter_content" value="Smart Building" />
+                    <label for="Smart Building">Solution Suite Concept</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="Smart City" class="filter_content" value="Smart City" />
+                    <label for="Smart City">Solution Suite</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="Healthcare" class="filter_content" value="Healthcare" />
+                    <label for="Healthcare">Tool Boxes</label>
+                </div>
+                
+            </div>
+
+            
+            
+            <br />
+        </div>
+    </div>
+    <button id="application-filter-visible-button" class="btn btn-muted ">
+        <svg width="16" height="16" font-size="30" fill="currentColor" class="bi bi-3x" viewBox="0 0 16 16" style="">
+            <use xlink:href="assets/img/bootstrap-icons.svg#funnel"></use>
+        </svg>
+    </button>
+    <div id="application-filter-button-container">
+        <button id="application-filter-hide-button" class="btn close" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" font-size="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        function toggleButtons() {
+            if (window.innerWidth < 961) {
+                document.getElementById('application-filter').style.display = 'none';
+                document.getElementById('application-filter-visible-button').style.display = 'block';
+                document.getElementById('application-filter-erase-button').style.display = 'none';
+                document.getElementById('application-filter-hide-button').style.display = 'none';
+            } else {
+                document.getElementById('application-filter').style.display = 'block';
+                document.getElementById('application-filter-visible-button').style.display = 'none';
+                document.getElementById('application-filter-erase-button').style.display = 'block';
+                document.getElementById('application-filter-hide-button').style.display = 'none';
+            }
+        }
+
+        toggleButtons();
+
+        document.getElementById('application-filter-visible-button').addEventListener('click', function () {
+            document.getElementById('application-filter').style.display = 'block';
+            document.getElementById('application-filter-erase-button').style.display = 'block';
+            document.getElementById('application-filter-hide-button').style.display = 'block';
+            this.style.display = 'none';
+        });
+
+        document.getElementById('application-filter-hide-button').addEventListener('click', function () {
+            document.getElementById('application-filter').style.display = 'none';
+            document.getElementById('application-filter-erase-button').style.display = 'none';
+            document.getElementById('application-filter-visible-button').style.display = 'block';
+            this.style.display = 'none';
+        });
+
+        document.getElementById('application-filter-erase-button').addEventListener('click', function () {
+            document.querySelectorAll('.filter_content').forEach(function (checkbox) {
+                checkbox.checked    = false;
+            });
+            filterData();
+        });
+
+        window.addEventListener('resize', toggleButtons);
+
+        document.querySelectorAll('.filter_content').forEach(function (checkbox) {
+            checkbox.addEventListener('change', filterData);
+        });
+        
+    });
+
+    function filterData() {
+        let selectedCategories = getSelectedValues('category-filter');
+
+        let selectedModels = getSelectedValues('model-filter');
+        let selectedTargetObjs = getSelectedValues('target_object-filter');
+        let selectedDevices = getSelectedValues('device-filter');
+        // let selectedInputSrcs = getSelectedValues('input_source-filter');
+        let selectedLabels = getSelectedValues('label-filter');
+        let selectedFeatures = getSelectedValues('feature-filter');
+
+        let cateDivs = document.querySelectorAll('.category_section');
+        let appsDivs = document.querySelectorAll('[data-model], [data-targetobj], [data-device], [data-label], [data-feature]');//, [data-inputsrc]');
+        appsDivs.forEach(function (div) {
+            let models      = div.getAttribute('data-model').split(/[+/]/).filter(Boolean);
+            let targetobjs  = div.getAttribute('data-targetobj').split(',').filter(Boolean);
+            let devices     = div.getAttribute('data-device').split(',').filter(Boolean);
+            // let inputsrcs   = div.getAttribute('data-inputsrc').split(',').filter(Boolean);
+            let labels     = div.getAttribute('data-label').split(',').filter(Boolean);
+            let features     = div.getAttribute('data-feature').split(',').filter(Boolean);
+
+            let modelCondition = selectedModels.length === 0 || models.some(function(value) {
+                return selectedModels.includes(value.trim());
+            });
+            let targetObjCondition = selectedTargetObjs.length === 0 || targetobjs.some(function(value) {
+                return selectedTargetObjs.includes(value.trim());
+            });
+            let deviceCondition = selectedDevices.length === 0 || devices.some(function(value) {
+                return selectedDevices.includes(value.trim());
+            }); 
+            // let inputSrcCondition = selectedInputSrcs.length === 0 || inputsrcs.some(function(value) {
+            //     return selectedInputSrcs.includes(value.trim());
+            // }); 
+            let labelCondition = selectedLabels.length === 0 || labels.some(function(value) {
+                return selectedLabels.includes(value.trim());
+            }); 
+            let featureCondition = selectedFeatures.length === 0 || features.some(function(value) {
+                return selectedFeatures.includes(value.trim());
+            }); 
+
+                        toggleVisibility(div, modelCondition && targetObjCondition && deviceCondition && labelCondition && featureCondition );// && inputSrcCondition);
+        });
+
+        cateDivs.forEach(function (div) {
+            let category = div.getAttribute('data-category');
+
+            let categoryCondition = selectedCategories.length === 0 || selectedCategories.includes(category);
+            toggleVisibility(div, categoryCondition);
+
+            let appCards = div.querySelectorAll('.application_card');
+            let allAppCardsCollapsed = Array.from(appCards).every(function (appCard) {
+                return appCard.classList.contains('collapse');
+            });
+            if (allAppCardsCollapsed) div.classList.add('collapse');
+
+            scrollToTop();
+        });
+    }
+
+    function getSelectedValues(filter_id) {
+        let filterGroup = document.getElementById(filter_id);
+        if(!filterGroup)    return [];
+        return Array.from(filterGroup.getElementsByClassName('filter_content'))
+            .filter(function (checkbox) {
+                return checkbox.checked;
+            })
+            .map(function (checkbox) {
+                return checkbox.value;
+            });
+    }
+
+    function toggleVisibility(element, isVisible) {
+        if (isVisible) {
+            element.classList.remove('collapse');
+        } else {
+            element.classList.add('collapse');
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+</script>
+-->
+
+<!----------------------------------------->
+
+
+      </section>
+    </div>
+    <script src="/rzv_ai_sdk/6.00/assets/js/scale.fix.js"></script>
+  </body>
+</html>
